@@ -67,6 +67,11 @@ def detect_encoding(file_path: Union[str, Path], sample_size: int = 10000) -> st
     try:
         with open(file_path, 'rb') as f:
             raw_data = f.read(sample_size)
+
+            # Handle empty files
+            if not raw_data:
+                raise EncodingError(f"File is empty: {file_path}")
+
             result = chardet.detect(raw_data)
 
             encoding = result['encoding']
@@ -122,7 +127,7 @@ def parse_date_column(
 
     # Try pandas built-in parsing first (fastest)
     try:
-        df[column_name] = pd.to_datetime(df[column_name], infer_datetime_format=True)
+        df[column_name] = pd.to_datetime(df[column_name])
         logger.info(f"Successfully parsed dates using pandas auto-detection")
         return df
     except Exception:
@@ -245,7 +250,13 @@ def load_csv(
 
     # Detect encoding if not provided
     if encoding is None:
-        encoding = detect_encoding(file_path)
+        try:
+            encoding = detect_encoding(file_path)
+        except EncodingError as e:
+            # Convert encoding errors for empty files to format errors
+            if "empty" in str(e).lower():
+                raise FileFormatError(f"CSV file is empty: {file_path}")
+            raise
 
     # Read CSV file
     try:
