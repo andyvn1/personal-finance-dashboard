@@ -335,8 +335,8 @@ class TestCleanDataFrame:
         assert float(result['amount'].iloc[0]) == -5.50
         assert float(result['amount'].iloc[1]) == 75.25
 
-        # Descriptions should be normalized
-        assert 'Starbucks' in result['description'].iloc[0]
+        # Descriptions should be normalized (STARBUCKS preserved as all-caps)
+        assert result['description'].iloc[0] == 'STARBUCKS'
 
         # Categories should be filled
         assert result['category'].iloc[0] == 'Uncategorized'

@@ -123,13 +123,13 @@ def handle_missing_values(
                 logger.info(f"Dropped {rows_dropped} rows with missing '{column}' values")
         elif action.startswith('fill:'):
             fill_value = action.split(':', 1)[1]
-            df[column] = df[column].fillna(fill_value)
+            df.loc[:, column] = df[column].fillna(fill_value)
             logger.debug(f"Filled {missing_count} values in '{column}' with '{fill_value}'")
         elif action == 'forward_fill':
-            df[column] = df[column].fillna(method='ffill')
+            df.loc[:, column] = df[column].fillna(method='ffill')
             logger.debug(f"Forward filled {missing_count} values in '{column}'")
         elif action == 'backward_fill':
-            df[column] = df[column].fillna(method='bfill')
+            df.loc[:, column] = df[column].fillna(method='bfill')
             logger.debug(f"Backward filled {missing_count} values in '{column}'")
 
     total_dropped = original_count - len(df)
@@ -281,11 +281,11 @@ def normalize_description(description: str) -> str:
     # Convert to string and strip
     desc = str(description).strip()
 
-    # Remove extra whitespace
-    desc = re.sub(r'\s+', ' ', desc)
+    # Remove special characters that don't add value (replace with space)
+    desc = re.sub(r'[#*]+', ' ', desc)
 
-    # Remove special characters that don't add value
-    desc = re.sub(r'[#*]+', '', desc)
+    # Remove extra whitespace (including spaces from removed special chars)
+    desc = re.sub(r'\s+', ' ', desc).strip()
 
     # Capitalize first letter of each word for consistency
     # But preserve all-caps acronyms
