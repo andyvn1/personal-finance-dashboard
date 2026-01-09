@@ -1,0 +1,151 @@
+Date,Description,Amount,Category,Transaction Type
+2025-10-10,Subway,-65.54,Restaurants,debit
+2025-10-10,Gas Company,-171.41,Utilities,debit
+2025-10-11,Gas Company,-195.66,Utilities,debit
+2025-10-12,Investment Dividend,4757.28,Income,credit
+2025-10-12,Internet Provider,-117.23,Utilities,debit
+2025-10-13,Investment Dividend,3039.76,Income,credit
+2025-10-13,Best Buy,-139.21,Shopping,debit
+2025-10-14,Chevron,-54.77,Gas & Fuel,debit
+2025-10-15,Safeway,-67.4,Groceries,debit
+2025-10-15,Geico,-381.83,Insurance,debit
+2025-10-15,Exxon,-60.19,Gas & Fuel,debit
+2025-10-16,Best Buy,-273.02,Shopping,debit
+2025-10-16,Kroger,-31.82,Groceries,debit
+2025-10-17,Mobil,-53.3,Gas & Fuel,debit
+2025-10-17,CVS Pharmacy,-192.03,Healthcare,debit
+2025-10-18,Water Utility,-104.63,Utilities,debit
+2025-10-18,Amazon,-85.65,Shopping,debit
+2025-10-18,Subway,-12.99,Restaurants,debit
+2025-10-18,Costco,-74.88,Groceries,debit
+2025-10-19,AMC Theaters,-43.07,Entertainment,debit
+2025-10-19,Chipotle,-70.03,Restaurants,debit
+2025-10-20,Lyft,-16.91,Transportation,debit
+2025-10-20,Walmart,-143.1,Groceries,debit
+2025-10-23,Lyft,-48.41,Transportation,debit
+2025-10-23,Spotify,-20.58,Entertainment,debit
+2025-10-23,Netflix,-45.71,Entertainment,debit
+2025-10-24,Trader Joe's,-81.56,Groceries,debit
+2025-10-24,Dental Clinic,-149.01,Healthcare,debit
+2025-10-25,Olive Garden,-18.48,Restaurants,debit
+2025-10-26,Walgreens,-81.42,Healthcare,debit
+2025-10-26,Olive Garden,-25.7,Restaurants,debit
+2025-10-26,Lyft,-42.82,Transportation,debit
+2025-10-26,Starbucks,-28.35,Restaurants,debit
+2025-10-29,Trader Joe's,-69.79,Groceries,debit
+2025-10-29,Home Depot,-188.56,Shopping,debit
+2025-10-30,Exxon,-63.51,Gas & Fuel,debit
+2025-10-30,Employer Payroll,2162.87,Income,credit
+2025-10-31,Subway,-68.17,Restaurants,debit
+2025-10-31,Water Utility,-126.68,Utilities,debit
+2025-11-01,Gas Company,-195.78,Utilities,debit
+2025-11-03,Metro Transit,-49.12,Transportation,debit
+2025-11-03,Employer Payroll,606.49,Income,credit
+2025-11-03,Macy's,-280.86,Shopping,debit
+2025-11-04,Macy's,-128.05,Shopping,debit
+2025-11-04,Olive Garden,-46.29,Restaurants,debit
+2025-11-05,McDonald's,-55.23,Restaurants,debit
+2025-11-06,Home Depot,-135.59,Shopping,debit
+2025-11-06,Safeway,-43.64,Groceries,debit
+2025-11-09,Amazon,-291.16,Shopping,debit
+2025-11-09,Freelance Payment,818.86,Income,credit
+2025-11-09,Target,-278.84,Shopping,debit
+2025-11-09,Steam,-23.41,Entertainment,debit
+2025-11-10,Parking Garage,-7.26,Transportation,debit
+2025-11-10,Employer Payroll,3894.05,Income,credit
+2025-11-10,Netflix,-39.66,Entertainment,debit
+2025-11-10,Metro Transit,-19.5,Transportation,debit
+2025-11-10,Spotify,-20.6,Entertainment,debit
+2025-11-10,Home Depot,-179.22,Shopping,debit
+2025-11-11,Zero Amount Transaction,0.0,Income,credit
+2025-11-12,Olive Garden,-26.99,Restaurants,debit
+2025-11-12,Amazon,-47.87,Shopping,debit
+2025-11-14,Pizza Hut,-54.08,Restaurants,debit
+2025-11-14,Olive Garden,-0.0,Restaurants,debit
+2025-11-16,Macy's,-59.12,Shopping,debit
+2025-11-16,PayPal,-12.49,Miscellaneous,debit
+2025-11-17,Starbucks,-24.8,Restaurants,debit
+2025-11-17,Shell,-77.14,Gas & Fuel,debit
+2025-11-17,Chevron,-60.78,Gas & Fuel,debit
+2025-11-17,Amazon,-213.7,Shopping,debit
+2025-11-17,Amazon,-220.13,Shopping,debit
+2025-11-20,Mobil,-40.98,Gas & Fuel,debit
+2025-11-20,Mobil,-40.98,Gas & Fuel,debit
+2025-11-21,Gas Company,-85.17,Utilities,debit
+2025-11-21,Parking Garage,-6.12,Transportation,debit
+2025-11-22,Freelance Payment,3958.69,Income,credit
+2025-11-22,Exxon,-37.77,Gas & Fuel,debit
+2025-11-22,CVS Pharmacy,-33.94,Healthcare,debit
+2025-11-23,Walmart,-121.74,Groceries,debit
+2025-11-23,Starbucks,-46.76,Restaurants,debit
+2025-11-23,Walmart,-26.77,Groceries,debit
+2025-11-24,Whole Foods,-105.67,Groceries,debit
+2025-11-26,AMC Theaters,-36.56,Entertainment,debit
+2025-11-26,Investment Dividend,662.13,Income,credit
+2025-11-27,Geico,-120.11,Insurance,debit
+2025-11-27,Bank Fee,-87.32,Miscellaneous,debit
+2025-11-28,Water Utility,-157.75,Utilities,debit
+2025-11-30,Dental Clinic,-226.5,Healthcare,debit
+2025-11-30,Starbucks,-61.35,Restaurants,debit
+2025-12-01,Walmart,-21.78,Groceries,debit
+2025-12-02,Subway,-24.48,Restaurants,debit
+2025-12-02,Progressive,-409.07,Insurance,debit
+2025-12-02,Costco,-64.36,Groceries,debit
+2025-12-03,Walmart,-78.32,Groceries,debit
+2025-12-03,Steam,-0.0,Entertainment,debit
+2025-12-05,Starbucks,-66.19,Restaurants,debit
+2025-12-05,Home Depot,-277.54,Shopping,debit
+2025-12-05,Parking Garage,-25.27,Transportation,debit
+2025-12-07,Olive Garden,-24.79,Restaurants,debit
+2025-12-07,Investment Dividend,4512.09,Income,credit
+2025-12-07,Geico,-179.83,Insurance,debit
+2025-12-09,Whole Foods,-26.01,Groceries,debit
+2025-12-09,BP,-32.18,Gas & Fuel,debit
+2025-12-09,Water Utility,-161.55,Utilities,debit
+2025-12-09,Bank Fee,-17.2,Miscellaneous,debit
+2025-12-10,Spotify,-27.86,Entertainment,debit
+2025-12-10,Dr. Smith's Office,-115.56,Healthcare,debit
+2025-12-10,Spotify,-18.66,Entertainment,debit
+2025-12-11,Spotify,-35.51,Entertainment,debit
+2025-12-11,PayPal,-65.3,Miscellaneous,debit
+2025-12-11,Trader Joe's,-113.61,Groceries,debit
+2025-12-12,AMC Theaters,-30.02,Entertainment,debit
+2025-12-13,ATM Withdrawal,-56.08,Miscellaneous,debit
+2025-12-13,Investment Dividend,4167.53,Income,credit
+2025-12-14,Investment Dividend,1208.45,Income,credit
+2025-12-14,Safeway,-65.65,Groceries,debit
+2025-12-15,Metro Transit,-39.46,Transportation,debit
+2025-12-17,Dr. Smith's Office,-161.66,Healthcare,debit
+2025-12-17,Steam,-35.4,Entertainment,debit
+2025-12-18,Freelance Payment,2921.99,Income,credit
+2025-12-19,Subway,-0.0,Restaurants,debit
+2025-12-19,Employer Payroll,2494.09,Income,credit
+2025-12-20,Kroger,-106.79,Groceries,debit
+2025-12-20,Starbucks,-29.76,Restaurants,debit
+2025-12-21,Target,-130.08,Shopping,debit
+2025-12-21,Amazon,-58.24,Shopping,debit
+2025-12-21,Employer Payroll,3877.14,Income,credit
+2025-12-21,Macy's,-202.35,Shopping,debit
+2025-12-22,Home Depot,-47.96,Shopping,debit
+2025-12-23,McDonald's,-35.09,Restaurants,debit
+2025-12-25,Investment Dividend,4633.22,Income,credit
+2025-12-25,Macy's,-69.32,Shopping,debit
+2025-12-26,AMC Theaters,-16.71,Entertainment,debit
+2025-12-26,Pizza Hut,-58.51,Restaurants,debit
+2025-12-27,Mobil,-61.05,Gas & Fuel,debit
+2025-12-28,Chevron,-55.92,Gas & Fuel,debit
+2025-12-29,Netflix,-11.15,Entertainment,debit
+2025-12-31,Freelance Payment,4761.77,Income,credit
+2026-01-01,Investment Dividend,1916.05,Income,credit
+2026-01-01,Lyft,-26.17,Transportation,debit
+2026-01-01,Amazon,-174.95,Shopping,debit
+2026-01-03,AMC Theaters,-25.96,Entertainment,debit
+2026-01-03,Olive Garden,-42.03,Restaurants,debit
+2026-01-03,Exxon,-47.76,Gas & Fuel,debit
+2026-01-04,Exxon,-47.76,Gas & Fuel,debit
+2026-01-04,Uber,-49.98,Transportation,debit
+2026-01-06,Whole Foods,-73.11,Groceries,debit
+2026-01-07,Mobil,-46.54,Gas & Fuel,debit
+2026-01-07,Subway,-24.97,Restaurants,debit
+2026-01-07,Spotify,-20.67,Entertainment,debit
+2026-01-08,McDonald's,-5.5,Restaurants,debit
